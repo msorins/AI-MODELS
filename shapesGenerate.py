@@ -37,7 +37,7 @@ def createSquare(name, path):
     plt.close(fig1)
 
     # Save auxiliary info to folder
-    f = open(os.getcwd() + "/datainfo/" +path + "/" + name + '.csv', 'w')
+    f = open(os.getcwd() + "/dataset/" +path + "/" + name + '.csv', 'w')
     f.write(str(x) + "," + str(y + height_v) + "," + str(x + width_v) + "," + str(y))
     f.close()
 
@@ -63,7 +63,7 @@ def createCircle(name, path):
     plt.close(fig1)
 
     #Save auxiliary info to folder
-    f = open(os.getcwd() + "/datainfo/" +path + "/" +name +'.csv', 'w')
+    f = open(os.getcwd() + "/dataset/" +path + "/" +name +'.csv', 'w')
     f.write(str(x-radius_v) + "," + str(y+radius_v) + "," + str(x+radius_v) + "," + str(y-radius_v))
     f.close()
 
@@ -77,14 +77,6 @@ def createDirectories():
         os.mkdir(os.getcwd() + "/dataset/test_set/square")
         os.mkdir(os.getcwd() + "/dataset/training_set/square")
         os.mkdir(os.getcwd() + "/dataset/training_set/circle")
-
-        os.mkdir(os.getcwd() + "/datainfo")
-        os.mkdir(os.getcwd() + "/datainfo/training_set")
-        os.mkdir(os.getcwd() + "/datainfo/test_set")
-        os.mkdir(os.getcwd() + "/datainfo/test_set/circle")
-        os.mkdir(os.getcwd() + "/datainfo/test_set/square")
-        os.mkdir(os.getcwd() + "/datainfo/training_set/square")
-        os.mkdir(os.getcwd() + "/datainfo/training_set/circle")
     except:
         print("Folders already existing")
 
