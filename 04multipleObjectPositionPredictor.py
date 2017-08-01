@@ -28,7 +28,7 @@ K.set_image_dim_ordering('th')
 cwd = os.getcwd()
 
 #Part 2 -> Initialise the CNN
-img_rows, img_cols = 96, 128
+img_rows, img_cols = 256, 256
 # number of convolutional filters to use
 nb_filters = 32
 # size of pooling area for max pooling
@@ -61,7 +61,7 @@ classifier.add(Flatten())
 # Step 6 -> Full connection
 classifier.add(Dense(output_dim = 512, activation = 'relu'))
 classifier.add(Dropout(0.2))
-classifier.add(Dense(output_dim = 1024, activation = 'relu'))
+classifier.add(Dense(output_dim = 2048, activation = 'relu'))
 classifier.add(Dropout(0.2))
 classifier.add(Dense(output_dim = 1024, activation = 'relu'))
 classifier.add(Dense(output_dim = 36))
@@ -84,9 +84,12 @@ def load_train():
     print('Read train images')
     for j in ["circle", "square"]:
         print('Load folder c{}'.format(j))
-        path = os.path.join('dataset', 'training_set', j, '*.png')
+        path = os.path.join('datasetv2', 'training_set', j, '*.png')
         files = glob.glob(path)
         for fl in files:
+            if "_" in fl:
+                continue
+
             fl = cwd + "/" + fl
             img = get_im(fl)
             X_train.append(img)
@@ -113,9 +116,12 @@ def load_test():
     print('Read test images')
     for j in ["circle", "square"]:
         print('Load folder c{}'.format(j))
-        path = os.path.join('dataset', 'test_set', j, '*.png')
+        path = os.path.join('datasetv2', 'test_set', j, '*.png')
         files = glob.glob(path)
         for fl in files:
+            if "_" in fl:
+                continue
+
             fl = cwd + "/" + fl
             img = get_im(fl)
             X_test.append(img)
@@ -154,12 +160,9 @@ X_test /= 255
 classifier.fit(numpy.array(X_train),
                pad_sequences(numpy.array(y_train), 36),
                batch_size=64,
-               nb_epoch=125,
+               nb_epoch=500,
                validation_data=(
                    numpy.array(X_test),
                    pad_sequences(numpy.array(y_test), 36)
                ),
                verbose=2)
-
-score = classifier.evaluate(X_test, y_test, show_accuracy=True, verbose=0)
-print('Score: ', score)
