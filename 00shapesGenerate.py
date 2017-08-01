@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import random
@@ -20,8 +21,12 @@ def createSquare(name, path):
 
     x = min(random.random(), 0.9)
     y = min(random.random(), 0.9)
-    width_v = width= random.random() / 5
-    height_v=  random.random() / 5
+
+    while True:
+        width_v = random.random() / 5
+        height_v = random.random() / 5
+        if x + width_v  <= 1 and y + height_v <= 1:
+            break
 
     ax1.add_patch(patches.Rectangle(
         (x, min(random.random(), 0.9)),# (x, y)
@@ -48,7 +53,10 @@ def createCircle(name, path):
 
     x = random.random()
     y = random.random()
-    radius_v = random.random() / 8
+    while True:
+        radius_v = min(0.1, random.random() / 8)
+        if x + radius_v <= 1 and x - radius_v >= 0 and y + radius_v <= 1 and y - radius_v >= 0:
+            break
 
     ax1.add_patch( patches.Circle(
         (x, y),
