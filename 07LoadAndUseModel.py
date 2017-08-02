@@ -9,7 +9,6 @@ import h5py
 cwd = os.getcwd()
 img_cols, img_rows = 256, 256
 
-
 def get_im(path):
     # Load as grayscale
     print("Path: ", path)
