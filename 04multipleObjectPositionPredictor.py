@@ -21,6 +21,7 @@ from keras.utils import np_utils
 import numpy
 import os
 import cv2
+import sys
 
 from keras import backend as K
 K.set_image_dim_ordering('th')
@@ -82,31 +83,30 @@ def load_train():
     X_train = []
     y_train = []
     print('Read train images')
-    for j in ["circle", "square"]:
-        print('Load folder c{}'.format(j))
-        path = os.path.join('datasetv2', 'training_set', j, '*.png')
-        files = glob.glob(path)
-        for fl in files:
-            if "_" in fl:
-                continue
 
-            fl = cwd + "/" + fl
-            img = get_im(fl)
-            X_train.append(img)
+    print('Load folder c{}')
+    path = os.path.join('datasetv2', 'training_set', '*.png')
+    files = glob.glob(path)
 
-            flCSV = fl.split('.')
-            flCSV[-1] = "csv"
-            flCSV = ".".join(flCSV)
+    for fl in files:
+         if "res" in fl:
+            continue
 
-            text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
-            text = text.split(",")
-            aux = []
-            for number in text:
-                aux.append(float(number))
+         fl = cwd + "/" + fl
+         img = get_im(fl)
+         X_train.append(img)
 
-            y_train.append(aux)
+         flCSV = fl.split('.')
+         flCSV[-1] = "csv"
+         flCSV = ".".join(flCSV)
 
+         text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
+         text = text.split(",")
+         aux = []
+         for number in text:
+             aux.append(float(number))
 
+         y_train.append(aux)
     return X_train, y_train
 
 
@@ -114,30 +114,30 @@ def load_test():
     X_test = []
     y_test = []
     print('Read test images')
-    for j in ["circle", "square"]:
-        print('Load folder c{}'.format(j))
-        path = os.path.join('datasetv2', 'test_set', j, '*.png')
-        files = glob.glob(path)
-        for fl in files:
-            if "_" in fl:
-                continue
 
-            fl = cwd + "/" + fl
-            img = get_im(fl)
-            X_test.append(img)
+    print('Load folder c{}')
+    path = os.path.join('datasetv2', 'test_set', '*.png')
+    files = glob.glob(path)
 
-            flCSV = fl.split('.')
-            flCSV[-1] = "csv"
-            flCSV = ".".join(flCSV)
+    for fl in files:
+        if "res" in fl:
+            continue
 
-            text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
-            text = text.split(",")
-            aux = []
-            for number in text:
-                aux.append(float(number))
+        fl = cwd + "/" + fl
+        img = get_im(fl)
+        X_test.append(img)
 
-            y_test.append(aux)
+        flCSV = fl.split('.')
+        flCSV[-1] = "csv"
+        flCSV = ".".join(flCSV)
 
+        text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
+        text = text.split(",")
+        aux = []
+        for number in text:
+            aux.append(float(number))
+
+        y_test.append(aux)
     return X_test, y_test
 
 
@@ -166,3 +166,8 @@ classifier.fit(numpy.array(X_train),
                    pad_sequences(numpy.array(y_test), 36)
                ),
                verbose=2)
+
+#Saving path is
+pth = str( os.getcwd() + "/" + sys.argv[0] + ".h5")
+print("Path is: ", pth)
+classifier.save(filepath = pth)

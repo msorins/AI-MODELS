@@ -56,7 +56,7 @@ def createCircle(name, path):
     x = random.random()
     y = random.random()
     while True:
-        radius_v = min(0.1, random.random() / 8)
+        radius_v = max(0.1, random.random() / 8)
         if x + radius_v <= 1 and x - radius_v >= 0 and y + radius_v <= 1 and y - radius_v >= 0:
             break
 

@@ -8,7 +8,7 @@ import os
 import math
 # Create images with random rectangles and bounding boxes.
 #
-num_images = 1000
+num_images = 20000
 test_num_images = int(0.5 * num_images)
 
 def addSquare(fig):
@@ -42,7 +42,7 @@ def addCircle(fig):
     x = random.random()
     y = random.random()
     while True:
-        radius_v = min(0.1, random.random() / 8)
+        radius_v = max(0.1, random.random() / 8)
         if x + radius_v <= 1 and x - radius_v >= 0 and y + radius_v <= 1 and y - radius_v >= 0:
             break
 
