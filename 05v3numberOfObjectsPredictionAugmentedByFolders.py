@@ -1,6 +1,6 @@
 import os
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="1,2,3" # Will use only 2nd, 3rd and 4th gpu
+os.environ["CUDA_VISIBLE_DEVICES"]="2,3" # Will use only 2nd, 3rd and 4th gpu
 
 #Part 1 -> Importing
 from keras.datasets import cifar10
@@ -57,34 +57,33 @@ train_datagen = ImageDataGenerator(rescale = 1./255,
 
 test_datagen = ImageDataGenerator(rescale = 1./255)
 
-training_set = train_datagen.flow_from_directory('datasetv4/training_set',
+training_set = train_datagen.flow_from_directory('datasetv5/training_set',
                                                  target_size = (64, 64),
                                                  batch_size = 64,
                                                  class_mode = 'sparse')
 
-test_set = test_datagen.flow_from_directory('datasetv4/test_set',
+test_set = test_datagen.flow_from_directory('datasetv5/test_set',
                                             target_size = (64, 64),
                                             batch_size = 64,
                                             class_mode = 'sparse',)
 
 
 #Part 5 -> fit the  NN
-"""
-classifier.fit_generator(training_set,
-                         samples_per_epoch = 2880,
-                         nb_epoch = 100,
-                         validation_data = test_set,
-                         nb_val_samples = 1408)
-"""
 
+classifier.fit_generator(training_set,
+                         samples_per_epoch = 8000,
+                         nb_epoch = 120,
+                         validation_data = test_set,
+                         nb_val_samples = 3968)
+"""
 crtEpoch = 0
 maxEpoch = 1500
 while crtEpoch <= maxEpoch:
     classifier.fit_generator(training_set,
-                             samples_per_epoch = 2880,
+                             samples_per_epoch = 8000,
                              nb_epoch = 1,
                              validation_data = test_set,
-                             nb_val_samples = 1408)
+                             nb_val_samples = 3968)
 
     classifier.save_weights(filepath = os.getcwd() + "/" + "savedModel-e" + str(crtEpoch) +".weights")
-
+"""
