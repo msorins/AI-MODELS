@@ -154,7 +154,7 @@ cnames = {
 # Create images with random rectangles and bounding boxes.
 #
 
-num_images = 8000
+num_images = 5000
 test_num_images = int(0.5 * num_images)
 
 def rectanglesIntersect(A, B):
@@ -176,6 +176,9 @@ def rectanglesIntersect(A, B):
 def addSquare(fig, boundingBoxes):
     ax = fig.add_subplot(111, aspect = 'equal')
 
+    tries = 0
+    maxTries = 100
+
     while True:
         x = random.random()
         y = random.random()
@@ -193,6 +196,10 @@ def addSquare(fig, boundingBoxes):
 
         if ok and x + width_v  <= 1 and y + height_v <= 1:
             break
+
+        tries += 1
+        if tries >= maxTries:
+            return None
 
     #Choose a color
     colorname, colorcode = random.choice(list(cnames.items()))
@@ -217,6 +224,8 @@ def addSquare(fig, boundingBoxes):
 def addCircle(fig, boundingBoxes):
     ax = fig.add_subplot(111, aspect='equal')
 
+    tries = 0
+    maxTries = 100
 
     while True:
         x = random.random()
@@ -234,6 +243,10 @@ def addCircle(fig, boundingBoxes):
 
         if ok and x + radius_v <= 1 and x - radius_v >= 0 and y + radius_v <= 1 and y - radius_v >= 0:
             break
+
+        tries += 1
+        if tries >= maxTries:
+            return None
 
     # Choose a color
     colorname, colorcode = random.choice(list(cnames.items()))
@@ -268,6 +281,8 @@ def dist(a, b):
 def addTriangle(fig, boundingBoxes):
     ax = fig.add_subplot(111, aspect='equal')
 
+    tries = 0
+    maxTries = 100
     while True:
         A_x = random.random()
         A_y = random.random()
@@ -286,6 +301,10 @@ def addTriangle(fig, boundingBoxes):
 
         if ok == True and dist([A_x, A_y], [B_x, B_y]) <= 0.2 and dist([A_x, A_y], [C_x, C_y]) <= 0.2 and dist([B_x, B_y], [C_x, C_y]) <= 0.2 and area([A_x, A_y], [B_x, B_y], [C_x, C_y]) >= 0.005:
             break
+
+        tries +=1
+        if tries >= maxTries:
+            return None
 
     Path = patches.Path
     path_data = [
@@ -316,7 +335,7 @@ def createDirectories():
         os.mkdir(os.getcwd() + "/datasetv5")
         os.mkdir(os.getcwd() + "/datasetv5/training_set")
         os.mkdir(os.getcwd() + "/datasetv5/test_set")
-        for i in range(1, 33):
+        for i in range(1, 10):
             os.mkdir(os.getcwd() + "/datasetv5/training_set/" + str(i) + "/")
             os.mkdir(os.getcwd() + "/datasetv5/test_set/" + str(i) + "/")
     except:
@@ -325,7 +344,7 @@ def createDirectories():
 createDirectories()
 
 def generateImages(num_images, path):
-    for crt in range(1592, num_images):
+    for crt in range(num_images):
 
         # Create the image
         fig = plt.figure()
@@ -335,8 +354,12 @@ def generateImages(num_images, path):
         auxInfo = []
         boundingBoxes = []
         totalImg = 0
-        for _ in range(random.randint(0, 2)):
-            x = addTriangle(fig, boundingBoxes).split(",")
+        for _ in range(random.randint(0, 3)):
+            x = addTriangle(fig, boundingBoxes)
+            if x == None:
+                continue
+            x = x.split(",")
+
             auxInfo += x
 
             auxY = []
@@ -345,8 +368,12 @@ def generateImages(num_images, path):
             boundingBoxes.append(auxY)
 
             totalImg += 1
-        for _ in range(random.randint(0, 2)):
-            x= addCircle(fig, boundingBoxes).split(",")
+        for _ in range(random.randint(0, 3)):
+            x = addCircle(fig, boundingBoxes)
+            if x == None:
+                continue
+            x = x.split(",")
+
             auxInfo += x
 
             auxY = []
@@ -355,8 +382,12 @@ def generateImages(num_images, path):
             boundingBoxes.append(auxY)
 
             totalImg += 1
-        for _ in range(random.randint(0, 2)):
-            x = addSquare(fig, boundingBoxes).split(",")
+        for _ in range(random.randint(0, 3)):
+            x = addSquare(fig, boundingBoxes)
+            if x == None:
+                continue
+            x = x.split(",")
+
             auxInfo += x
 
             auxY = []
@@ -373,14 +404,15 @@ def generateImages(num_images, path):
         plt.tight_layout()
         plt.axis('off')
         fig.savefig(os.getcwd() + "/datasetv5/"+ path + "/" + str(totalImg) + "/" + str(crt) + '.png', bbox_inches="tight", dpi=100)
-
+        plt.close(fig)
 
         #Save auxiliary info to folder
-        
+
+
         f = open(os.getcwd() + "/datasetv5/"+ path +"/" + str(totalImg) + "/" + str(crt) + '.csv', 'w')
         f.write(",".join(auxInfo))
         f.close()
-        """"
+
 
         #Save an auxiliary image with bounding boxes over the objects
        
@@ -416,7 +448,7 @@ def generateImages(num_images, path):
         # Save the image
         fig.savefig(os.getcwd() + "/datasetv5/"+ path +"/" + str(totalImg) + "/" + str(crt) + '_res.png', bbox_inches="tight", dpi=100)
         plt.close(fig)
-        """
+
         print("Generated to: ", os.getcwd() + "/datasetv5/" + path + "/" + str(totalImg) + "/" + str(crt) + '_res.png')
 
 
