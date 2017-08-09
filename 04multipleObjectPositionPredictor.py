@@ -2,7 +2,7 @@
 
 import os
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="1,2,3" # Will use only 2nd, 3rd and 4th gpu
+os.environ["CUDA_VISIBLE_DEVICES"]="2" # Will use only 2nd, 3rd and 4th gpu
 
 
 #Part 1 -> Importing
@@ -29,7 +29,7 @@ K.set_image_dim_ordering('th')
 cwd = os.getcwd()
 
 #Part 2 -> Initialise the CNN
-img_rows, img_cols = 256, 256
+img_rows, img_cols = 128, 128
 # number of convolutional filters to use
 nb_filters = 32
 # size of pooling area for max pooling
@@ -50,21 +50,22 @@ classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
 # Adding a second convolutional layer
 classifier.add(Convolution2D(32, 3, 3, activation = 'relu'))
-classifier.add(MaxPooling2D(pool_size = (2, 2)))
+#classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
 classifier.add(Convolution2D(32, 3, 3, activation = 'relu'))
-classifier.add(MaxPooling2D(pool_size = (2, 2)))
+#classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
 
 # Step 5 -> Flattening
 classifier.add(Flatten())
 
 # Step 6 -> Full connection
+classifier.add(Dense(output_dim = 1024, activation = 'relu'))
 classifier.add(Dense(output_dim = 512, activation = 'relu'))
 classifier.add(Dropout(0.2))
-classifier.add(Dense(output_dim = 2048, activation = 'relu'))
-classifier.add(Dropout(0.2))
 classifier.add(Dense(output_dim = 1024, activation = 'relu'))
+classifier.add(Dropout(0.2))
+classifier.add(Dense(output_dim = 512, activation = 'relu'))
 classifier.add(Dense(output_dim = 36))
 
 #Part 3 -> Compile the CNN
@@ -85,28 +86,40 @@ def load_train():
     print('Read train images')
 
     print('Load folder c{}')
-    path = os.path.join('datasetv2', 'training_set', '*.png')
-    files = glob.glob(path)
+    path = os.path.join('datasetv5', 'training_set', '*')
 
-    for fl in files:
-         if "res" in fl:
-            continue
+    folders = glob.glob(path)
+    print("Folders: ", folders)
 
-         fl = cwd + "/" + fl
-         img = get_im(fl)
-         X_train.append(img)
+    crt = 0
+    max = 99999999
+    for folder in folders:
+        files = glob.glob(os.path.join(folder, "*.png"))
 
-         flCSV = fl.split('.')
-         flCSV[-1] = "csv"
-         flCSV = ".".join(flCSV)
+        for fl in files:
+             if "res" in fl:
+                continue
 
-         text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
-         text = text.split(",")
-         aux = []
-         for number in text:
-             aux.append(float(number))
+             fl = cwd + "/" + fl
+             img = get_im(fl)
+             X_train.append(img)
 
-         y_train.append(aux)
+             flCSV = fl.split('.')
+             flCSV[-1] = "csv"
+             flCSV = ".".join(flCSV)
+
+             text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
+             text = text.split(",")
+             aux = []
+             for number in text:
+                 aux.append(float(number))
+
+             y_train.append(aux)
+
+             crt += 1
+             if crt >= max:
+                 break
+
     return X_train, y_train
 
 
@@ -116,28 +129,37 @@ def load_test():
     print('Read test images')
 
     print('Load folder c{}')
-    path = os.path.join('datasetv2', 'test_set', '*.png')
-    files = glob.glob(path)
+    path = os.path.join('datasetv5', 'test_set', '*')
 
-    for fl in files:
-        if "res" in fl:
-            continue
+    crt = 0
+    max = 99999999
+    folders = glob.glob(path)
+    for folder in folders:
+        files = glob.glob(os.path.join(folder, "*.png"))
+        for fl in files:
+            if "res" in fl:
+                continue
 
-        fl = cwd + "/" + fl
-        img = get_im(fl)
-        X_test.append(img)
+            fl = cwd + "/" + fl
+            img = get_im(fl)
+            X_test.append(img)
 
-        flCSV = fl.split('.')
-        flCSV[-1] = "csv"
-        flCSV = ".".join(flCSV)
+            flCSV = fl.split('.')
+            flCSV[-1] = "csv"
+            flCSV = ".".join(flCSV)
 
-        text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
-        text = text.split(",")
-        aux = []
-        for number in text:
-            aux.append(float(number))
+            text = str(genfromtxt(flCSV, deletechars=",", dtype=None))
+            text = text.split(",")
+            aux = []
+            for number in text:
+                aux.append(float(number))
 
-        y_test.append(aux)
+            y_test.append(aux)
+
+            crt += 1
+            if crt >= max:
+                break
+
     return X_test, y_test
 
 
@@ -157,6 +179,7 @@ X_test = X_test.astype('float32')
 X_test /= 255
 
 #Part 5 -> fit the  NN
+
 classifier.fit(numpy.array(X_train),
                pad_sequences(numpy.array(y_train), 36),
                batch_size=64,
@@ -164,8 +187,8 @@ classifier.fit(numpy.array(X_train),
                validation_data=(
                    numpy.array(X_test),
                    pad_sequences(numpy.array(y_test), 36)
-               ),
-               verbose=2)
+               )
+               )
 
 #Saving path is
 pth = str( os.getcwd() + "/" + sys.argv[0] + ".h5")

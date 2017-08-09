@@ -1,3 +1,7 @@
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  # see issue #152
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"  # Will use only 2nd, 3rd and 4th gpu
+
 import sys
 import numpy
 from keras.models import Sequential
@@ -8,7 +12,7 @@ from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 
 # load ascii text and covert to lowercase
-filename = "wonderland.txt"
+filename = "eminescu.csv"
 raw_text = open(filename).read()
 raw_text = raw_text.lower()
 
@@ -24,7 +28,7 @@ print("Total Characters: ", n_chars)
 print("Total Vocab: ", n_vocab)
 
 # prepare the dataset of input to output pairs encoded as integers
-seq_length = 100
+seq_length = 250
 dataX = []
 dataY = []
 for i in range(0, n_chars - seq_length, 1):
@@ -46,14 +50,16 @@ y = np_utils.to_categorical(dataY)
 
 # define the LSTM model
 model = Sequential()
-model.add(LSTM(256, input_shape=(X.shape[1], X.shape[2]), return_sequences=True))
+model.add(LSTM(512, input_shape=(X.shape[1], X.shape[2]), return_sequences=True))
 model.add(Dropout(0.2))
-model.add(LSTM(256))
+model.add(LSTM(1024))
+model.add(Dropout(0.2))
+model.add(LSTM(512))
 model.add(Dropout(0.2))
 model.add(Dense(y.shape[1], activation='softmax'))
 
 # load the network weights
-filename = "weights-improvement-47-1.2219-bigger.hdf5"
+filename = "weights-improvement-17-1.6036-eminescu.hdf5"
 model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
