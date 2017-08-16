@@ -20,11 +20,16 @@ def createFolders():
 
 def generateData(num, path):
     for crtImage in range(num):
-        nr_chars = random.randint(2, 6)
+        #nr_chars = random.randint(2, 6)
+        nr_chars = 3
 
         chars = ''
         for _ in range(nr_chars):
-            digit = random.randint(0, 9)
+            if _ == 0:
+                digit = random.randint(1, 9)
+            else:
+                digit = random.randint(0, 9)
+
             chars += str(digit)
 
         image = ImageCaptcha(fonts=['fonts/captcha4.ttf'])\
@@ -41,4 +46,3 @@ def generateData(num, path):
 createFolders()
 generateData(num_train_data, 'dataset/training_set')
 generateData(num_test_data, 'dataset/test_set')
-
