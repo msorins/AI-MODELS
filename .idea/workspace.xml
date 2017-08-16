@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/00shapesGenerate.py" line="65" />
+    <bookmark url="file://$PROJECT_DIR$/CNN/00shapesGenerate.py" line="65" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a567b2c-17dc-4fa9-989f-39b0bc98d9b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mod-im.hdf5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/savedModel-e0.weights" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-0.6938-01binaryConvClassifier.py.hdf5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-00-3.0284-bigger.hdf5.filepart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-14-1.9044-eminescu.hdf5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weights-improvement-17-1.8511-eminescu.hdf5" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00shapesGenerate.py" afterPath="$PROJECT_DIR$/CNN/00shapesGenerate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00v2shapesGenerateMultiple.py" afterPath="$PROJECT_DIR$/CNN/00v2shapesGenerateMultiple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00v3shapesGenerateMultipleByFolders.py" afterPath="$PROJECT_DIR$/CNN/00v3shapesGenerateMultipleByFolders.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00v4shapesGenerateMultipleDiffColorsByFolders.py" afterPath="$PROJECT_DIR$/CNN/00v4shapesGenerateMultipleDiffColorsByFolders.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.py" afterPath="$PROJECT_DIR$/CNN/00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/00v6shapesGenerate.py" afterPath="$PROJECT_DIR$/CNN/00v6shapesGenerate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/01binaryConvClassifier.py" afterPath="$PROJECT_DIR$/CNN/01binaryConvClassifier.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/02multipleConvClassifier.py" afterPath="$PROJECT_DIR$/CNN/02multipleConvClassifier.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/02multipleConvClassifier.py.model" afterPath="$PROJECT_DIR$/CNN/02multipleConvClassifier.py.model" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/03singleObjectPositionPredictor.py" afterPath="$PROJECT_DIR$/CNN/03singleObjectPositionPredictor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/04multipleObjectPositionPredictor.py" afterPath="$PROJECT_DIR$/CNN/04multipleObjectPositionPredictor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/05numberOfObjectsPrediction.py" afterPath="$PROJECT_DIR$/CNN/05numberOfObjectsPrediction.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/05v2numberOfObjectsPredictionAugmented.py" afterPath="$PROJECT_DIR$/CNN/05v2numberOfObjectsPredictionAugmented.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/05v3numberOfObjectsPredictionAugmentedByFolders.py" afterPath="$PROJECT_DIR$/CNN/05v3numberOfObjectsPredictionAugmentedByFolders.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/06RNN.py" afterPath="$PROJECT_DIR$/RNN/06RNN.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/08RNNTextGenerate.py" afterPath="$PROJECT_DIR$/RNN/08RNNTextGenerate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/08RNNTextTrain.py" afterPath="$PROJECT_DIR$/RNN/08RNNTextTrain.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/08v2RNNTextGenerateEminescuBigger.py" afterPath="$PROJECT_DIR$/RNN/08v2RNNTextGenerateEminescuBigger.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BadMushroomsPredictions.txt" afterPath="$PROJECT_DIR$/RNN/BadMushroomsPredictions.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eminescu.csv" afterPath="$PROJECT_DIR$/RNN/eminescu.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eminescu_no_spaces.csv" afterPath="$PROJECT_DIR$/RNN/eminescu_no_spaces.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_1x1_v1.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_1x1_v1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_1x1v2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_1x1v2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_3x3_v1.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_3x3_v1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_3x3_v2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_3x3_v2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_93%acc_conv4.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_93%acc_conv4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_bla.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_bla.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_conv2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_conv2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_modelX_conv2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_modelX_conv4.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_v1.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_v1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_4x4_v2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_4x4_v2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_5x5_96%acc_conv4.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_5x5_96%acc_conv4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_6x6.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_6x6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_6x6_96%_conv2.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_6x6_96%_conv2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_6x6_97%acc_conv4.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_6x6_97%acc_conv4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_6x6_98%acc_conv4.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_6x6_98%acc_conv4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stitched_filters_8x8.png" afterPath="$PROJECT_DIR$/CNN/stitched_filters_8x8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wonderland.txt" afterPath="$PROJECT_DIR$/RNN/wonderland.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01binaryConvClassifier.py" afterPath="$PROJECT_DIR$/01binaryConvClassifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04multipleObjectPositionPredictor.py" afterPath="$PROJECT_DIR$/04multipleObjectPositionPredictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08RNNTextGenerate.py" afterPath="$PROJECT_DIR$/08RNNTextGenerate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,21 +62,24 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ShapesGenerate$06RNN.coverage" NAME="06RNN Coverage Results" MODIFIED="1502111179132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$shapesDetectCNN.coverage" NAME="shapesDetectCNN Coverage Results" MODIFIED="1501486476721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ShapesGenerate$08RNNTextTrain.coverage" NAME="08RNNTextTrain Coverage Results" MODIFIED="1502116204240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$08RNNTextTrain.coverage" NAME="08RNNTextTrain Coverage Results" MODIFIED="1502431237321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v4shapesGenerateMultipleDiffColorsByFolders.coverage" NAME="00v4shapesGenerateMultipleDiffColorsByFolders Coverage Results" MODIFIED="1501829692347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v3shapesGenerateMultipleByFolders.coverage" NAME="00v3shapesGenerateMultipleByFolders Coverage Results" MODIFIED="1501681338795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ShapesGenerate$09VisualiseCNN.coverage" NAME="09VisualiseCNN Coverage Results" MODIFIED="1502266787425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$09VisualiseCNN.coverage" NAME="09VisualiseCNN Coverage Results" MODIFIED="1502353363450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$08RNNGEnerateText.coverage" NAME="08RNNGEnerateText Coverage Results" MODIFIED="1502114999883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$shapesGenerate.coverage" NAME="shapesGenerate Coverage Results" MODIFIED="1501496295710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v2shapesGenerateMultiple.coverage" NAME="00v2shapesGenerateMultiple Coverage Results" MODIFIED="1501596323217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v6shapesGenerate.coverage" NAME="00v6shapesGenerate Coverage Results" MODIFIED="1502264230324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesCNN.coverage" NAME="shapesCNN Coverage Results" MODIFIED="1501221452980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$12CaptchaGenerator.coverage" NAME="12CaptchaGenerator Coverage Results" MODIFIED="1502867649034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12Captcha" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$01binaryConvClassifier.coverage" NAME="01binaryConvClassifier Coverage Results" MODIFIED="1502260701348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$07LoadAndUseModel.coverage" NAME="07LoadAndUseModel Coverage Results" MODIFIED="1501759538644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesRecognisePositionCNN.coverage" NAME="shapesRecognisePositionCNN Coverage Results" MODIFIED="1501238305658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AI-MODELS$00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.coverage" NAME="00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps Coverage Results" MODIFIED="1502043650480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesCNN__1_.coverage" NAME="shapesCNN (1) Coverage Results" MODIFIED="1501223639095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$10RNNSeq2Seq.coverage" NAME="10RNNSeq2Seq Coverage Results" MODIFIED="1502353464648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$Unittests_in_04multipleObjectPositionPredictor_py.coverage" NAME="Unittests in 04multipleObjectPositionPredictor.py Coverage Results" MODIFIED="1501660004751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$11RNNTextGenerate.coverage" NAME="11RNNTextGenerate Coverage Results" MODIFIED="1502442961243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
     <SUITE FILE_PATH="coverage/AI-MODELS$00v3shapesGenerateMultipleByFolders.coverage" NAME="00v3shapesGenerateMultipleByFolders Coverage Results" MODIFIED="1501690019335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.coverage" NAME="00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps Coverage Results" MODIFIED="1501830584256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$Unittests_in_05v2numberOfObjectsPredictionAugmented_py.coverage" NAME="Unittests in 05v2numberOfObjectsPredictionAugmented.py Coverage Results" MODIFIED="1501675119641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -55,73 +98,68 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stitched_filters_3x3_v2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_3x3_v2.png">
+      <file leaf-file-name="12CaptchaGenerator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12Captcha/12CaptchaGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00v6shapesGenerate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/00v6shapesGenerate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="333" column="7" lean-forward="false" selection-start-line="333" selection-start-column="4" selection-end-line="333" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00v4shapesGenerateMultipleDiffColorsByFolders.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/00v4shapesGenerateMultipleDiffColorsByFolders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4998">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="out.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12Captcha/out.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stitched_filters_3x3_v1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_3x3_v1.png">
+      <file leaf-file-name="out_1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12Captcha/out_1.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stitched_filters_5x5_96%acc_conv4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_5x5_96%acc_conv4.png">
+      <file leaf-file-name="out_2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12Captcha/out_2.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stitched_filters_6x6_97%acc_conv4.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_6x6_97%acc_conv4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_v2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_v2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_modelX_conv4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_modelX_conv4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_modelX_conv2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_modelX_conv2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_conv2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_conv2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_bla.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_bla.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stitched_filters_4x4_v1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_v1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="08RNNTextTrain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RNN/08RNNTextTrain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -137,18 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>256</find>
-      <find>64</find>
-      <find>reshape</find>
-      <find>batch_size</find>
-      <find>Conv2d</find>
-      <find>glob</find>
-      <find>03</find>
-      <find>04</find>
-      <find>0.3</find>
-      <find>(3, 3),</find>
-      <find>cv2.im</find>
-      <find>v3</find>
       <find>v4r,</find>
       <find>+ &quot;,</find>
       <find>+ &quot;,&quot; +</find>
@@ -167,6 +193,18 @@
       <find>kept_fil</find>
       <find>dataset</find>
       <find>^\n</find>
+      <find>epochs</find>
+      <find>ctable</find>
+      <find>calc_argmax</find>
+      <find>de patimi</find>
+      <find>mea de patimi</find>
+      <find>calea mea</find>
+      <find>sunt plini de</find>
+      <find>colors</find>
+      <find>output</find>
+      <find>MAXLEN</find>
+      <find>os.</find>
+      <find>try</find>
     </findStrings>
     <replaceStrings>
       <replace>datainfo</replace>
@@ -225,6 +263,13 @@
         <option value="$PROJECT_DIR$/08RNNTextGenerate.py" />
         <option value="$PROJECT_DIR$/eminescu_no_spaces.csv" />
         <option value="$PROJECT_DIR$/08v2RNNTextGenerateEminescuBigger.py" />
+        <option value="$PROJECT_DIR$/RNN/10RNNSeq2Seq.py" />
+        <option value="$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.py" />
+        <option value="$PROJECT_DIR$/RNN/test.ipynb" />
+        <option value="$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py" />
+        <option value="$PROJECT_DIR$/RNN/08RNNTextTrain.py" />
+        <option value="$PROJECT_DIR$/RNN/11RNNTextGenerate.py" />
+        <option value="$PROJECT_DIR$/12Captcha/12CaptchaGenerator.py" />
       </list>
     </option>
   </component>
@@ -235,8 +280,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -275,7 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,9 +335,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RNN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CNN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapesGenerate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12Captcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +393,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN" />
       <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate" />
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN" />
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\CNN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,45 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.09VisualiseCNN">
-    <configuration default="false" name="08RNNTextTrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI-MODELS" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08RNNTextTrain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="08RNNTextGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI-MODELS" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08RNNTextGenerate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.12CaptchaGenerator">
     <configuration default="false" name="09VisualiseCNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,39 +434,77 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="01binaryConvClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="10RNNSeq2Seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI-MODELS" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01binaryConvClassifier.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN\10RNNSeq2Seq_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="00v6shapesGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="08RNNTextTrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI-MODELS" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00v6shapesGenerate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNN/08RNNTextTrain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="11RNNTextGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI-MODELS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\11DeepDreamInternet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12CaptchaGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12Captcha" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI-MODELS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12Captcha/12CaptchaGenerator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -598,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
-      <item index="1" class="java.lang.String" itemvalue="Python.08RNNTextGenerate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.09VisualiseCNN" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01binaryConvClassifier" />
-      <item index="4" class="java.lang.String" itemvalue="Python.00v6shapesGenerate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.09VisualiseCNN" />
+      <item index="1" class="java.lang.String" itemvalue="Python.10RNNSeq2Seq" />
+      <item index="2" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11RNNTextGenerate" />
+      <item index="4" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.09VisualiseCNN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.00v6shapesGenerate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01binaryConvClassifier" />
-        <item index="3" class="java.lang.String" itemvalue="Python.08RNNTextGenerate" />
-        <item index="4" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11RNNTextGenerate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
+        <item index="3" class="java.lang.String" itemvalue="Python.10RNNSeq2Seq" />
+        <item index="4" class="java.lang.String" itemvalue="Python.09VisualiseCNN" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -680,29 +775,29 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43872297" sideWeight="0.12920168" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.8707983" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.8707983" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26365545" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26145834" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.49791667" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.49791667" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46652934" sideWeight="0.7384454" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27138332" sideWeight="0.7384454" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930672" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -736,9 +831,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/00v4shapesGenerateMultipleDiffColorsByFolders.py</url>
+          <url>file://$PROJECT_DIR$/CNN/00v4shapesGenerateMultipleDiffColorsByFolders.py</url>
           <line>286</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/08RNNTextTrain.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -748,48 +858,19 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datasetv5/training_set/8/4695.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/training_set/6/1403.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/training_set/6/1180.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/training_set/6/1120.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/training_set/6/962.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/test_set/8/29.png" />
-    <entry file="file://$PROJECT_DIR$/datasetv5/test_set/8/1539.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/tensorflowx/Lib/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9809">
-          <caret line="594" column="0" lean-forward="false" selection-start-line="594" selection-start-column="0" selection-end-line="594" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/tensorflowx/Lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06RNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05v3numberOfObjectsPredictionAugmentedByFolders.py">
+    <entry file="file://$PROJECT_DIR$/CNN/05v3numberOfObjectsPredictionAugmentedByFolders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05v2numberOfObjectsPredictionAugmented.py">
+    <entry file="file://$PROJECT_DIR$/CNN/05v2numberOfObjectsPredictionAugmented.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="79" />
@@ -803,21 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wonderland.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56055">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eminescu.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="602" column="6" lean-forward="false" selection-start-line="602" selection-start-column="6" selection-end-line="602" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/envs/tensorflowx/Lib/site-packages/tensorflow/python/framework/common_shapes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1168">
@@ -825,77 +891,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BadMushroomsPredictions.txt">
+    <entry file="file://$PROJECT_DIR$/RNN/BadMushroomsPredictions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00v3shapesGenerateMultipleByFolders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="170" column="45" lean-forward="false" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03singleObjectPositionPredictor.py">
+    <entry file="file://$PROJECT_DIR$/CNN/03singleObjectPositionPredictor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00v2shapesGenerateMultiple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05numberOfObjectsPrediction.py">
+    <entry file="file://$PROJECT_DIR$/CNN/05numberOfObjectsPrediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="970">
           <caret line="66" column="38" lean-forward="false" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.py">
+    <entry file="file://$PROJECT_DIR$/CNN/00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="449" column="8" lean-forward="false" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00shapesGenerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="136" column="7" lean-forward="false" selection-start-line="136" selection-start-column="7" selection-end-line="144" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04multipleObjectPositionPredictor.py">
+    <entry file="file://$PROJECT_DIR$/CNN/04multipleObjectPositionPredictor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_1x1v2.png">
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_1x1v2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_1x1_v1.png">
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_1x1_v1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -904,29 +940,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="1590" column="0" lean-forward="false" selection-start-line="1590" selection-start-column="0" selection-end-line="1590" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01binaryConvClassifier.py">
+    <entry file="file://$PROJECT_DIR$/CNN/01binaryConvClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00v6shapesGenerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="381" column="21" lean-forward="true" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_93%acc_conv4.png">
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_93%acc_conv4.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -935,25 +962,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#205#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02multipleConvClassifier.py">
+    <entry file="file://$PROJECT_DIR$/CNN/02multipleConvClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eminescu_no_spaces.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77214">
-          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,104 +976,220 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/08RNNTextGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_6x6_98%acc_conv4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_8x8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_6x6_96%_conv2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_6x6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_v1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_v2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_conv2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_bla.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_3x3_v2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_3x3_v1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_5x5_96%acc_conv4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_6x6_97%acc_conv4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/RNN/eminescu.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10642">
+          <caret line="626" column="55" lean-forward="false" selection-start-line="626" selection-start-column="55" selection-end-line="626" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/eminescu_no_spaces.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58395">
+          <caret line="3435" column="23" lean-forward="false" selection-start-line="3435" selection-start-column="10" selection-end-line="3435" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.py" />
+    <entry file="file://$PROJECT_DIR$/RNN/08v2RNNTextGenerateEminescuBigger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/wonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3327" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/00v2shapesGenerateMultiple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/00shapesGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11DeepDreamInternet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="165" column="45" lean-forward="false" selection-start-line="165" selection-start-column="45" selection-end-line="165" selection-end-column="45" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#191#228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08RNNTextTrain.py">
+    <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12Captcha/out_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12Captcha/out_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12Captcha/out.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/00v3shapesGenerateMultipleByFolders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="109" column="53" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="109" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08RNNTextGenerate.py">
+    <entry file="file://$PROJECT_DIR$/CNN/00v4shapesGenerateMultipleDiffColorsByFolders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="-4998">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/00v6shapesGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="333" column="7" lean-forward="false" selection-start-line="333" selection-start-column="4" selection-end-line="333" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08v2RNNTextGenerateEminescuBigger.py">
+    <entry file="file://$PROJECT_DIR$/12Captcha/12CaptchaGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_6x6_98%acc_conv4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_8x8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_6x6_96%_conv2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_6x6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_v1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_v2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_modelX_conv4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_modelX_conv2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_conv2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_4x4_bla.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_3x3_v2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_3x3_v1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_5x5_96%acc_conv4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stitched_filters_6x6_97%acc_conv4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/RNN/08RNNTextTrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
