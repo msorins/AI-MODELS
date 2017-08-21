@@ -10,6 +10,7 @@ from keras.layers import MaxPooling2D
 from keras.layers import Flatten
 from keras.layers import Dense
 from keras.layers import Dropout
+
 import sys
 
 #Part 2 -> Initialise the CNN
