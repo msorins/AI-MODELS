@@ -10,13 +10,12 @@ import matplotlib.pyplot as plt
 
 #Global variables
 cwd = os.getcwd()
-img_cols, img_rows = 64, 64
+img_cols, img_rows = 128, 128
 
 def get_im(path):
-    # Load as grayscale
     print("Path: ", path)
     img = cv2.imread(path)
-    # Reduce size
+
     resized = cv2.resize(img, (img_cols, img_rows))
     return resized
 
@@ -39,15 +38,22 @@ def load_images_predict(model, path):
         prediction = model.predict(x = img)
         prediction = prediction[0][0]
 
+        #print(path + ": " + str(prediction) )
+        #image = Image.open(path)
+        #image.show()
+
         #Scatter the result
-        plt.scatter(x=prediction * 1000000000, y = 0)
+        plt.scatter(x=prediction, y = 0)
 
         #Save the result
         res += str(fl) + " => prediction: " + str( prediction ) + "\n"
 
-        crt += 1
-        if crt >= 350:
-            break
+        if prediction > 2:
+            a = 3
+
+        #crt += 1
+        #if crt >= 350:
+        #    break
 
 
     plt.show()
@@ -61,11 +67,11 @@ def save_string_to_file(string, path):
 
 def main():
     # Load the model
-    model = load_model('07isMushroom.h5')
+    model = load_model('01v2binaryConvClassifierMSE-09-0.0077.hdf5')
 
     # Load each image folder and predict
-    predictionsGoodMushrooms = load_images_predict(model, os.path.join('mushrooms', 'GoodMushrooms', '*.jpg'))
-    save_string_to_file(predictionsGoodMushrooms, './GoodMushroomsPredictions.txt')
+    #predictionsGoodMushrooms = load_images_predict(model, os.path.join('mushrooms', 'GoodMushrooms', '*.jpg'))
+    #save_string_to_file(predictionsGoodMushrooms, './GoodMushroomsPredictions.txt')
 
     # Load each image folder and predict
     predictionsBadMushrooms = load_images_predict(model, os.path.join('mushrooms', 'BadMushrooms', '*.jpg'))

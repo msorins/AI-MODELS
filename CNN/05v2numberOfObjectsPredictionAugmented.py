@@ -74,6 +74,7 @@ def build_classifier():
     #Part 3 -> Compile the CNN
     classifier.compile(optimizer = 'adam', loss = 'mse', metrics = ['accuracy'])
 
+
     return classifier
 
 #Part 4 -> Get the images & csv

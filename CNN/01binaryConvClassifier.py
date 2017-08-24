@@ -20,41 +20,29 @@ import sys
 
 classifier = Sequential()
 
-# Step 1 -> Convolution
-classifier.add(Convolution2D(32, 3, 3, input_shape = (64, 64, 3), activation = 'relu'))
-
-# Step 2 -> Pooling
+classifier.add(Convolution2D(32, 3, 3, input_shape = (128, 128, 3), activation = 'relu'))
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
-#classifier.add(Dropout(0.2))
 
-# Step 3 -> Convolution
 classifier.add(Convolution2D(64, 3, 3,  activation = 'relu'))
-
-# Step 4 -> Pooling
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
-# Step 3 -> Convolution
 classifier.add(Convolution2D(64, 3, 3,  activation = 'relu'))
-
-# Step 4 -> Pooling
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
-# Step 3 -> Convolution
 classifier.add(Convolution2D(64, 3, 3,  activation = 'relu'))
-
-# Step 4 -> Pooling
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
-# Step 5 -> Flattening
+
 classifier.add(Flatten())
 
 # Step 6 -> Full connection
-classifier.add(Dense(output_dim = 256, activation = 'relu'))
-classifier.add(Dense(output_dim = 128, activation = 'relu'))
-classifier.add(Dense(output_dim = 1, activation = 'sigmoid'))
+classifier.add(Dense(output_dim = 512, activation = 'relu'))
+classifier.add(Dense(output_dim = 1024, activation = 'relu'))
+classifier.add(Dense(output_dim = 1024, activation = 'relu'))
+classifier.add(Dense(output_dim = 1, activation = 'linear'))
 
 #Part 3 -> Compile the CNN
-classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+classifier.compile(optimizer = 'adam', loss = 'mse', metrics = ['accuracy'])
 
 #Part 4 -> Get the images
 from keras.preprocessing.image import ImageDataGenerator
@@ -64,14 +52,14 @@ train_datagen = ImageDataGenerator()
 test_datagen = ImageDataGenerator()
 
 training_set = train_datagen.flow_from_directory('datasetv6/training_set',
-                                                 target_size = (64, 64),
+                                                 target_size = (128, 128),
                                                  batch_size = 32,
-                                                 class_mode = 'binary')
+                                                 class_mode = 'sparse')
 
 test_set = test_datagen.flow_from_directory('datasetv6/test_set',
-                                            target_size = (64, 64),
+                                            target_size = (128, 128),
                                             batch_size = 32,
-                                            class_mode = 'binary')
+                                            class_mode = 'sparse')
 
 class Save(keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs=None):
