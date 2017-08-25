@@ -13,7 +13,7 @@ cwd = os.getcwd()
 img_cols, img_rows = 128, 128
 
 def get_im(path):
-    print("Path: ", path)
+    #print("Path: ", path)
     img = cv2.imread(path)
 
     resized = cv2.resize(img, (img_cols, img_rows))
@@ -33,8 +33,10 @@ def load_images_predict(model, path):
         img = get_im(fl)
 
         #Predict a result
-        img = numpy.array(img)
+        img = numpy.array(img).astype('float32')
+        img /= 255
         img = numpy.reshape(img, (1, img_cols, img_rows, 3))
+
         prediction = model.predict(x = img)
         prediction = prediction[0][0]
 
@@ -43,18 +45,14 @@ def load_images_predict(model, path):
         #image.show()
 
         #Scatter the result
-        plt.scatter(x=prediction, y = 0)
+        #plt.scatter(x=prediction, y = 0)
 
         #Save the result
         res += str(fl) + " => prediction: " + str( prediction ) + "\n"
 
-        if prediction > 2:
-            a = 3
-
         #crt += 1
-        #if crt >= 350:
+        #if crt >= 550:
         #    break
-
 
     plt.show()
 
@@ -67,11 +65,11 @@ def save_string_to_file(string, path):
 
 def main():
     # Load the model
-    model = load_model('01v2binaryConvClassifierMSE-09-0.0077.hdf5')
+    model = load_model('12Captcha/12v4CNNLSTMModel-TrainCNNWeights-14-143922.4646.hdf5')
 
     # Load each image folder and predict
-    #predictionsGoodMushrooms = load_images_predict(model, os.path.join('mushrooms', 'GoodMushrooms', '*.jpg'))
-    #save_string_to_file(predictionsGoodMushrooms, './GoodMushroomsPredictions.txt')
+    predictionsGoodMushrooms = load_images_predict(model, os.path.join('mushrooms', 'GoodMushrooms', '*.jpg'))
+    save_string_to_file(predictionsGoodMushrooms, './GoodMushroomsPredictions.txt')
 
     # Load each image folder and predict
     predictionsBadMushrooms = load_images_predict(model, os.path.join('mushrooms', 'BadMushrooms', '*.jpg'))
