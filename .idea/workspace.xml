@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a567b2c-17dc-4fa9-989f-39b0bc98d9b0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/01v2binaryConvClassifierMSE-21-0.0063.hdf5" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07LoadAndUseModel.py" afterPath="$PROJECT_DIR$/07LoadAndUseModel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12Captcha/12v4CNNLSTMModel-TrainCNNWeights.ipynb" afterPath="$PROJECT_DIR$/12Captcha/12v4CNNLSTMModel-TrainCNNWeights.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadMushroomsPredictions.txt" afterPath="$PROJECT_DIR$/BadMushroomsPredictions.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/01v2binaryConvClassifierMSE.ipynb" afterPath="$PROJECT_DIR$/CNN/01v2binaryConvClassifierMSE.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoodMushroomsPredictions.txt" afterPath="$PROJECT_DIR$/GoodMushroomsPredictions.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb" afterPath="$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +54,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07LoadAndUseModel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07LoadAndUseModel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07LoadAndUseModel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -79,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10RNNSeq2Seq_me.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="10RNNSeq2Seq_me.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="5" />
+              <selected id="7" />
             </state>
           </provider>
         </entry>
@@ -97,19 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08v2RNNTextTrainBigger.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="10RNNSeq2Seq_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
+            <state relative-caret-position="2788">
               <caret line="165" column="38" lean-forward="false" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
               <folding />
             </state>
@@ -119,7 +104,7 @@
       <file leaf-file-name="01binaryConvClassifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/01binaryConvClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
+            <state relative-caret-position="1122">
               <caret line="70" column="55" lean-forward="false" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
               <folding />
             </state>
@@ -129,8 +114,8 @@
       <file leaf-file-name="02multipleConvClassifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/02multipleConvClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="867">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,7 +124,7 @@
       <file leaf-file-name="03singleObjectPositionPredictor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/03singleObjectPositionPredictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="2431">
               <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="14" />
               <folding />
             </state>
@@ -314,7 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,13 +321,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="12Captcha" />
+              <option name="myItemId" value="RNN" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -739,7 +724,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26770833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -752,7 +737,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27138332" sideWeight="0.7384454" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27138332" sideWeight="0.7384454" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930672" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1076,13 +1061,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5270">
           <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/01binaryConvClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
+        <state relative-caret-position="1122">
           <caret line="70" column="55" lean-forward="false" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
           <folding />
         </state>
@@ -1095,11 +1079,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/n01983481_11.JPEG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/n01983481_11.JPEG" />
     <entry file="file://$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1109,16 +1089,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
+        <state relative-caret-position="2788">
           <caret line="165" column="38" lean-forward="false" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="5" />
         </state>
       </provider>
     </entry>
@@ -1131,15 +1104,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/02multipleConvClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/03singleObjectPositionPredictor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="2431">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="14" />
           <folding />
         </state>
@@ -1150,6 +1123,13 @@
         <state relative-caret-position="17">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
         </state>
       </provider>
     </entry>
