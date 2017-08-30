@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a567b2c-17dc-4fa9-989f-39b0bc98d9b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/01v2binaryConvClassifierMSE.ipynb" afterPath="$PROJECT_DIR$/CNN/01v2binaryConvClassifierMSE.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,13 +28,14 @@
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesCNN.coverage" NAME="shapesCNN Coverage Results" MODIFIED="1501221452980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$12CaptchaGenerator.coverage" NAME="12CaptchaGenerator Coverage Results" MODIFIED="1503471216071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12Captcha" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$01binaryConvClassifier.coverage" NAME="01binaryConvClassifier Coverage Results" MODIFIED="1502260701348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ShapesGenerate$07LoadAndUseModel.coverage" NAME="07LoadAndUseModel Coverage Results" MODIFIED="1503668653012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$07LoadAndUseModel.coverage" NAME="07LoadAndUseModel Coverage Results" MODIFIED="1504090443561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesRecognisePositionCNN.coverage" NAME="shapesRecognisePositionCNN Coverage Results" MODIFIED="1501238305658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AI-MODELS$00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.coverage" NAME="00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps Coverage Results" MODIFIED="1502043650480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesCNN$shapesCNN__1_.coverage" NAME="shapesCNN (1) Coverage Results" MODIFIED="1501223639095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$10RNNSeq2Seq.coverage" NAME="10RNNSeq2Seq Coverage Results" MODIFIED="1502353464648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$Unittests_in_04multipleObjectPositionPredictor_py.coverage" NAME="Unittests in 04multipleObjectPositionPredictor.py Coverage Results" MODIFIED="1501660004751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$11RNNTextGenerate.coverage" NAME="11RNNTextGenerate Coverage Results" MODIFIED="1502442961243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
+    <SUITE FILE_PATH="coverage/ShapesGenerate$tt.coverage" NAME="tt Coverage Results" MODIFIED="1504090479401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AI-MODELS$00v3shapesGenerateMultipleByFolders.coverage" NAME="00v3shapesGenerateMultipleByFolders Coverage Results" MODIFIED="1501690019335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps.coverage" NAME="00v5shapesGenerateMultipleDiffColorsByFoldersNoOverlaps Coverage Results" MODIFIED="1501830584256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShapesGenerate$Unittests_in_05v2numberOfObjectsPredictionAugmented_py.coverage" NAME="Unittests in 05v2numberOfObjectsPredictionAugmented.py Coverage Results" MODIFIED="1501675119641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -73,11 +73,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10RNNSeq2Seq_me.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10RNNSeq2Seq_me.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="51" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -136,8 +157,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -206,7 +227,6 @@
         <option value="$PROJECT_DIR$/shapesGenerate.py" />
         <option value="$PROJECT_DIR$/shapesRecognisePositionCNN.py" />
         <option value="$PROJECT_DIR$/01v2binaryMushroomsClasification.py" />
-        <option value="$PROJECT_DIR$/test.ipynb" />
         <option value="$PROJECT_DIR$/00v2shapesGenerate.py" />
         <option value="$PROJECT_DIR$/02multipleConvClassifier.py" />
         <option value="$PROJECT_DIR$/05v2numberOfObjectsPredictionAugmented.py" />
@@ -247,6 +267,10 @@
         <option value="$PROJECT_DIR$/CNN/05v2numberOfObjectsPredictionAugmented.py" />
         <option value="$PROJECT_DIR$/CNN/01binaryConvClassifier.py" />
         <option value="$PROJECT_DIR$/07LoadAndUseModel.py" />
+        <option value="$PROJECT_DIR$/RNN/test.py" />
+        <option value="$PROJECT_DIR$/test.ipynb" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/tt.py" />
       </list>
     </option>
   </component>
@@ -257,10 +281,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -299,6 +323,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,7 +352,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -340,15 +364,15 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate" />
-      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN" />
-      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\CNN" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\12Captcha" />
       <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN" />
       <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate" />
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN" />
+      <recent name="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\CNN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,64 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07LoadAndUseModel">
-    <configuration default="false" name="10RNNSeq2Seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI-MODELS" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\RNN\10RNNSeq2Seq_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="08RNNTextTrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI-MODELS" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNN/08RNNTextTrain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="11RNNTextGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI-MODELS" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\MSS4CLJ\Desktop\ShapesGenerate\11DeepDreamInternet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tt">
     <configuration default="false" name="12CaptchaGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,6 +421,58 @@
       <module name="AI-MODELS" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07LoadAndUseModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI-MODELS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in tt.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ShapesCNN" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tt.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AI-MODELS" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -642,19 +661,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.10RNNSeq2Seq" />
-      <item index="1" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11RNNTextGenerate" />
-      <item index="3" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07LoadAndUseModel" />
+      <item index="0" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Python.07LoadAndUseModel" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in tt.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07LoadAndUseModel" />
-        <item index="1" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11RNNTextGenerate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.08RNNTextTrain" />
-        <item index="4" class="java.lang.String" itemvalue="Python.10RNNSeq2Seq" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tt" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in tt.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07LoadAndUseModel" />
+        <item index="4" class="java.lang.String" itemvalue="Python.12CaptchaGenerator" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -724,7 +743,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26770833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -733,7 +752,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33370045" sideWeight="0.8707983" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31408307" sideWeight="0.8707983" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -812,21 +831,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="99" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_modelX_conv2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNN/stitched_filters_4x4_conv2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1053,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
           <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,13 +1088,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/n01983481_11.JPEG" />
-    <entry file="file://$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/08v2RNNTextTrainBigger.ipynb" />
     <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2788">
@@ -1129,7 +1131,24 @@
     <entry file="file://$PROJECT_DIR$/RNN/10RNNSeq2Seq_me.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="5" />
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="51" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
